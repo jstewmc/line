@@ -1,0 +1,24 @@
+{
+	"name": "jstewmc/line",
+	"description": "A line from a file",
+	"keywords": ["php", "jstewmc", "line", "file"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jack Clayton",
+			"email": "clayjs0@gmail.com"	
+		}
+	],
+	"require": {
+		"php": "^7.0",
+		"jstewmc/text": "^0.1.1"
+	},
+	"require-dev": {
+		"jstewmc/test-case": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Jstewmc\\Line\\": "src/"
+		}
+	}
+}
